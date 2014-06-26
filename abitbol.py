@@ -16,7 +16,7 @@ with open(os.path.join(HERE, 'classe-americaine.json')) as ca:
 @app.route('/')
 def index():
     q = random.choice(quotes)
-    return (q, 200, [('content-type', 'text/plain')])
+    return (q, 200, [('content-type', 'text/plain; charset=utf-8')])
 
 if __name__ == '__main__':
     app.run(debug=True)
