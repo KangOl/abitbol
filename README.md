@@ -3,5 +3,5 @@
 git alias
 
 ```
-abitbol = !curl -s http://abitbol.kn.gl | git commit -F -
+abitbol = !curl -s https://abitbol.kn.gl | git commit -F -
 ```
