@@ -1,3 +1,1 @@
-Flask
-simplejson
-gunicorn
+Flask==2.2.2
